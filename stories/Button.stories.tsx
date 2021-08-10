@@ -11,6 +11,16 @@ export default {
   },
 } as ComponentMeta<typeof Button>;
 
+/**
+ * @param {number} a
+ * @param {number} b
+ * @returns {number}
+ * @description Add two numbers.
+ */
+ function add(a: number, b: number) {
+  return a + b;
+}
+
 const Template: ComponentStory<typeof Button> = (args) => <Button {...args} />;
 
 export const Primary = Template.bind({});

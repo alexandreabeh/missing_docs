@@ -1,0 +1,23 @@
+{
+  "presets": [
+    "@babel/preset-typescript",
+    [
+      // target older browsers
+      "@babel/preset-env",
+      {
+        "targets": {
+          "browsers": "> .5%",
+          "edge": "17"
+        },
+        "loose": true
+      }
+    ],
+    "@babel/preset-react"
+  ],
+  "plugins": [
+    // allow class properties
+    ["@babel/plugin-proposal-class-properties", { "loose": true }],
+    // this is required because we're targeting older browsers https://risanb.com/posts/regenerator-runtime-is-not-defined/
+    "@babel/plugin-transform-runtime"
+  ]
+}
