@@ -25,7 +25,6 @@
     "babel-jest": "^27.0.5",
     "babel-loader": "^8.2.2",
     "chromatic": "^5.8.0",
-    "react-docgen-typescript-loader": "^3.7.2",
     "typescript": "4.3.5",
     "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.2"

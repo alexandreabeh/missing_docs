@@ -18,18 +18,6 @@ module.exports = {
           loader: "babel-loader",
         },
         {
-          loader: "react-docgen-typescript-loader",
-          options: {
-            propFilter: (prop) => {
-              if (prop.parent) {
-                return !prop.parent.fileName.includes("node_modules");
-              }
-
-              return true;
-            },
-          },
-        },
-        {
           loader: "@storybook/source-loader",
         },
       ],
