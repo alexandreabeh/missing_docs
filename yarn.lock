@@ -10584,6 +10584,36 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
+"missing_docs@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "missing_docs@workspace:."
+  dependencies:
+    "@babel/core": ^7.15.0
+    "@babel/plugin-proposal-class-properties": ^7.12.1
+    "@babel/plugin-transform-runtime": ^7.14.3
+    "@babel/polyfill": ^7.12.1
+    "@babel/preset-env": ^7.13.15
+    "@babel/preset-react": ^7.12.10
+    "@babel/preset-typescript": ^7.13.0
+    "@babel/runtime": ^7.14.8
+    "@mdx-js/react": ^1.6.22
+    "@storybook/addon-essentials": 6.3.7
+    "@storybook/addon-links": 6.3.7
+    "@storybook/addons": 6.3.7
+    "@storybook/react": 6.3.7
+    babel-eslint: ^10.1.0
+    babel-jest: ^27.0.5
+    babel-loader: ^8.2.2
+    chromatic: ^5.8.0
+    react: ^16.14.0
+    react-docgen-typescript-loader: ^3.7.2
+    react-dom: ^16.14.0
+    typescript: 4.3.5
+    webpack-cli: ^3.3.12
+    webpack-dev-server: ^3.11.2
+  languageName: unknown
+  linkType: soft
+
 "mississippi@npm:^3.0.0":
   version: 3.0.0
   resolution: "mississippi@npm:3.0.0"
@@ -14494,36 +14524,6 @@ typescript@4.3.5:
   checksum: bc2c4fdf0f1557fdafe4ef74848c72ebd9c8c60829568248f869121aea2bb20e16649a252431d0acb185ec118143be22bed73d08f64379557810d82756afedde
   languageName: node
   linkType: hard
-
-"typescript_error_repro@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "typescript_error_repro@workspace:."
-  dependencies:
-    "@babel/core": ^7.15.0
-    "@babel/plugin-proposal-class-properties": ^7.12.1
-    "@babel/plugin-transform-runtime": ^7.14.3
-    "@babel/polyfill": ^7.12.1
-    "@babel/preset-env": ^7.13.15
-    "@babel/preset-react": ^7.12.10
-    "@babel/preset-typescript": ^7.13.0
-    "@babel/runtime": ^7.14.8
-    "@mdx-js/react": ^1.6.22
-    "@storybook/addon-essentials": 6.3.7
-    "@storybook/addon-links": 6.3.7
-    "@storybook/addons": 6.3.7
-    "@storybook/react": 6.3.7
-    babel-eslint: ^10.1.0
-    babel-jest: ^27.0.5
-    babel-loader: ^8.2.2
-    chromatic: ^5.8.0
-    react: ^16.14.0
-    react-docgen-typescript-loader: ^3.7.2
-    react-dom: ^16.14.0
-    typescript: 4.3.5
-    webpack-cli: ^3.3.12
-    webpack-dev-server: ^3.11.2
-  languageName: unknown
-  linkType: soft
 
 "unbox-primitive@npm:^1.0.1":
   version: 1.0.1
